@@ -401,7 +401,7 @@ def main():
 	
 	if list0=="lsw":
 		CMD("title feedback")
-		print("\n\nWX: rousev111")
+		print("\n\n**: ***")
 		input("..")
 		main()
 		
