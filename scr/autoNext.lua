@@ -1,7 +1,7 @@
 
 MAXENTRIES = 5000
 
-function Set (t)
+function Set (t) 
     local set = {}
     for _, v in pairs(t) do set[v] = true end
     return set
