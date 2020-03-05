@@ -80,11 +80,11 @@ def configMpv():
                 path=configPath
             else:
                 print("Error: %s   std-mpv.exe文件已被修改"%configPath)
-                path=input("\n\n%s重新配置路径: "%' '*pre).strip()
-                print("%s[*]  退出"%' '*pre)
+                path=input("\n\n%s重新配置路径: "%(' '*pre)).strip()
+                print("%s[*]  退出"%(' '*pre))
         else:
-            path=input("\n\n%s配置路径: "%' '*pre).strip()
-            print("%s[*]  退出"%' '*pre)
+            path=input("\n\n%s配置路径: "%(' '*pre)).strip()
+            print("%s[*]  退出"%(' '*pre))
         
             
         if path=="1":
@@ -347,7 +347,7 @@ def addList():
     else:
         dict0={}
     for i in range(100):
-        listName=input("\n\n%s列表名： "%' '*pre).strip()
+        listName=input("\n\n%s列表名： "%(' '*pre)).strip()
         
         listPath=input("\n%s  {可拖拽目标文件至此输入}  |   [q]：quit\n\n%s路径： "%(' '*pre,' '*pre)).strip()
         if listPath=='q':
